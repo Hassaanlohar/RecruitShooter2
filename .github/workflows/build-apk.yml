@@ -22,7 +22,7 @@ jobs:
 
       - name: Extract and build APK
         run: |
-          unzip RecruitShooter_Android_Project_(1).zip
+          unzip RecruitShooter_Android_Project (1).zip
           cd RecruitShooter-Android
           gradle assembleDebug --no-daemon
 
